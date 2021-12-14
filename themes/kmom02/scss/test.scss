@@ -1,6 +1,6 @@
 /* TEST: Kmom01 */
 
-.test-black {
+.test-black p {
     width: 600px;
     height: 100px;
     background-color: rgb(0, 0, 0);
@@ -8,7 +8,7 @@
     box-sizing: content-box !important;
 }
 
-.test-blue {
+.test-blue p {
     width: 100%;
     height: 100px;
     background-color: rgb(0, 0, 255);
@@ -16,14 +16,14 @@
     box-sizing: content-box !important;
 }
 
-.test-red {
+.test-red p {
     width: 50vw;
     height: 100px;
     background-color: rgb(255, 0, 0);
     box-sizing: border-box;
 }
 
-.test-green {
+.test-green p {
     width: 100%;
     height: 100px;
     background-color: rgb(0, 136, 0);
