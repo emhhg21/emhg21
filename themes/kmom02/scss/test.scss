@@ -1,0 +1,61 @@
+/* TEST: Kmom01 */
+
+.test-black {
+    width: 600px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    box-sizing: content-box !important;
+}
+
+.test-blue {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+    box-sizing: content-box !important;
+}
+
+.test-red {
+    width: 50vw;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    box-sizing: border-box;
+}
+
+.test-green {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 136, 0);
+}
+
+/* TEST: Kmom02 */
+
+.test-kmom02 {
+    width: 60% !important;
+    margin: auto;
+}
+
+.test-kmom02 p {
+    padding: 2rem;
+}
+
+.old-fashioned {
+    font-weight: 900;
+    letter-spacing: 1.8px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+}
+
+.modern {
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.worst-ever {
+    letter-spacing: -2px;
+    font-family: fantasy;
+    color: rgb(169, 255, 169);
+}

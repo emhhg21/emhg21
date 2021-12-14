@@ -1,0 +1,39 @@
+/* Normalize code */
+@import '../../node_modules/normalize.css/normalize';
+
+/* Variables */
+@import 'variables';
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Lato&display=swap');
+
+/* External modules */
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+/******** Internal modules ************/
+@import 'general';
+@import 'header/header';
+@import 'header/title';
+@import 'header/header-queries';
+@import 'title';
+@import 'footer';
+
+/* Typography */
+@import 'typography/typography';
+@import 'typography/blockquote';
+@import 'typography/code';
+
+/* About Me */
+@import 'about-me';
+
+/* About techniques */
+@import 'about-tech';
+
+@import 'header/mobile-menu';
+
+/* Tests from 10-10 lecture */
+@import 'test';

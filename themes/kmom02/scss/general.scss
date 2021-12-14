@@ -1,0 +1,27 @@
+
+* {
+    color: $font-color;
+}
+
+html {
+    overflow: scroll;
+    min-height: 100vw;
+    font-size: 100%; /* Important for availability */
+    background-color: $background-color-dark;
+}
+
+body {
+    width: 80vw;
+    margin: 5vw 10vw;
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color-light;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.main {
+    flex: 1 0 auto;
+}
